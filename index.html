@@ -409,7 +409,7 @@ const RSVP_ENDPOINT = "https://script.google.com/macros/s/AKfycbx2gmxVYENew0V_Ex
 
 function getInviteName(){
   const params = new URLSearchParams(window.location.search);
-  return (params.get("invite") || "").trim();
+  return (params.get("nom") || "").trim();
 }
 
 function displayInviteName(){
